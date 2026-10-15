@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Mohamed Wael — AI Engineer">
+  <style>
+    .bg { fill: #0A0F12; }
+    .grid { stroke: #16222A; stroke-width: 1; }
+    .name { font: 700 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #E6EDF0; letter-spacing: -1px; }
+    .role { font: 600 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #2DD4BF; }
+    .mono { font: 500 17px 'JetBrains Mono', Consolas, 'Courier New', monospace; fill: #8A9AA2; }
+    .tag  { font: 700 13px 'JetBrains Mono', Consolas, 'Courier New', monospace; fill: #0A0F12; }
+    .edge { stroke: #22313A; stroke-width: 1.5; }
+    .flow { stroke: #2DD4BF; stroke-width: 2; stroke-dasharray: 6 140; animation: flow 2.4s linear infinite; }
+    .flow.b { stroke: #60A5FA; animation-delay: .8s; }
+    .flow.c { stroke: #A78BFA; animation-delay: 1.6s; }
+    .node { fill: #131B20; stroke: #2DD4BF; stroke-width: 2; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .d1 { animation-delay: .3s; } .d2 { animation-delay: .9s; } .d3 { animation-delay: 1.5s; } .d4 { animation-delay: 2.1s; }
+    .scan { animation: scan 4s ease-in-out infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes flow { from { stroke-dashoffset: 146; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { fill: #131B20; transform: scale(1); } 50% { fill: #2DD4BF; transform: scale(1.18); } }
+    @keyframes scan { 0%,100% { transform: translateX(0); opacity: .9; } 50% { transform: translateX(14px); opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect class="bg" width="1200" height="320" rx="18"/>
+  <g class="grid">
+    <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200"/>
+    <path d="M40 0V320M80 0V320M120 0V320M160 0V320M200 0V320M240 0V320M280 0V320M320 0V320M360 0V320M400 0V320M440 0V320M480 0V320M520 0V320M560 0V320M600 0V320M640 0V320M680 0V320M720 0V320M760 0V320M800 0V320M840 0V320M880 0V320M920 0V320M960 0V320M1000 0V320M1040 0V320M1080 0V320M1120 0V320M1160 0V320"/>
+  </g>
+  <rect width="1200" height="320" rx="18" fill="none" stroke="#22313A" stroke-width="2"/>
+
+  <!-- text block with a detection box -->
+  <text class="mono" x="72" y="92">&gt; model.predict(github_visitor)</text>
+  <text class="name" x="72" y="170">Mohamed Wael</text>
+  <text class="role" x="72" y="214">AI Engineer · Computer Vision · LLMs</text>
+  <text class="mono" x="72" y="258">YOLO · Tracking · RAG · FastAPI · React<tspan class="cursor" fill="#2DD4BF"> ▌</tspan></text>
+
+  <g class="scan">
+    <rect x="60" y="118" width="440" height="70" fill="none" stroke="#2DD4BF" stroke-width="2" rx="4"/>
+    <rect x="60" y="100" width="168" height="20" rx="3" fill="#2DD4BF"/>
+    <text class="tag" x="68" y="115">ENGINEER · 0.99</text>
+  </g>
+
+  <!-- neural network -->
+  <g>
+    <g class="edge">
+      <path d="M760 80L900 60M760 80L900 140M760 80L900 220M760 80L900 280"/>
+      <path d="M760 160L900 60M760 160L900 140M760 160L900 220M760 160L900 280"/>
+      <path d="M760 240L900 60M760 240L900 140M760 240L900 220M760 240L900 280"/>
+      <path d="M900 60L1040 110M900 60L1040 210M900 140L1040 110M900 140L1040 210"/>
+      <path d="M900 220L1040 110M900 220L1040 210M900 280L1040 110M900 280L1040 210"/>
+      <path d="M1040 110L1130 160M1040 210L1130 160"/>
+    </g>
+    <path class="flow" d="M760 80L900 140L1040 110L1130 160" fill="none"/>
+    <path class="flow b" d="M760 240L900 220L1040 210L1130 160" fill="none"/>
+    <path class="flow c" d="M760 160L900 60L1040 110L1130 160" fill="none"/>
+    <path class="flow b" d="M760 160L900 280L1040 210L1130 160" fill="none" style="animation-delay:.4s"/>
+
+    <circle class="node pulse"    cx="760" cy="80"  r="13"/>
+    <circle class="node pulse d2" cx="760" cy="160" r="13"/>
+    <circle class="node pulse d4" cx="760" cy="240" r="13"/>
+    <circle class="node pulse d1" cx="900" cy="60"  r="13"/>
+    <circle class="node pulse d3" cx="900" cy="140" r="13"/>
+    <circle class="node pulse d2" cx="900" cy="220" r="13"/>
+    <circle class="node pulse d4" cx="900" cy="280" r="13"/>
+    <circle class="node pulse d1" cx="1040" cy="110" r="13"/>
+    <circle class="node pulse d3" cx="1040" cy="210" r="13"/>
+    <circle class="node pulse"    cx="1130" cy="160" r="16" style="stroke:#A78BFA"/>
+  </g>
+</svg>

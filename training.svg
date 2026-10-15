@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Training log: Mohamed Wael, ready to build your next AI product">
+  <style>
+    .t { font: 500 16px 'JetBrains Mono', Consolas, 'Courier New', monospace; fill: #B7C4CA; }
+    .c { fill: #2DD4BF; } .p { fill: #A78BFA; } .y { fill: #F5B841; } .w { fill: #E6EDF0; } .g { fill: #8A9AA2; }
+    .l { opacity: 0; animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: ease-out; }
+    .l1 { animation-name: s1; } .l2 { animation-name: s2; } .l3 { animation-name: s3; } .l4 { animation-name: s4; }
+    .l5 { animation-name: s5; } .l6 { animation-name: s6; } .l7 { animation-name: s7; } .l8 { animation-name: s8; }
+    @keyframes s1 { 0%{opacity:0} 2%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s2 { 0%,9%{opacity:0} 11%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s3 { 0%,18%{opacity:0} 20%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s4 { 0%,28%{opacity:0} 30%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s5 { 0%,38%{opacity:0} 40%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s6 { 0%,48%{opacity:0} 50%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s7 { 0%,60%{opacity:0} 62%,92%{opacity:1} 100%{opacity:0} }
+    @keyframes s8 { 0%,70%{opacity:0} 72%,92%{opacity:1} 100%{opacity:0} }
+    .bar { animation: fill 14s ease-out infinite; transform-box: fill-box; transform-origin: left; }
+    .b3 { animation-name: f3; } .b4 { animation-name: f4; } .b5 { animation-name: f5; } .b6 { animation-name: f6; }
+    @keyframes f3 { 0%,20%{transform:scaleX(0)} 27%,92%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+    @keyframes f4 { 0%,30%{transform:scaleX(0)} 37%,92%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+    @keyframes f5 { 0%,40%{transform:scaleX(0)} 47%,92%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+    @keyframes f6 { 0%,50%{transform:scaleX(0)} 57%,92%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect width="900" height="330" rx="14" fill="#0A0F12" stroke="#22313A" stroke-width="2"/>
+  <rect width="900" height="40" rx="14" fill="#131B20"/>
+  <rect y="26" width="900" height="14" fill="#131B20"/>
+  <circle cx="24" cy="20" r="6" fill="#F87171"/><circle cx="44" cy="20" r="6" fill="#F5B841"/><circle cx="64" cy="20" r="6" fill="#A3E635"/>
+  <text class="t g" x="450" y="25" text-anchor="middle" style="font-size:13px">training.log</text>
+
+  <text class="t l l1" x="28" y="76"><tspan class="c">$</tspan> <tspan class="w">python train.py --model mohamed-wael --task ai-engineering</tspan></text>
+  <text class="t l l2" x="28" y="108">Loading data: AI &amp; Data Science @ Zewail City <tspan class="c">✓</tspan></text>
+
+  <g class="l l3"><text class="t" x="28" y="140">Epoch 1/4  <tspan class="w">computer_vision </tspan></text><rect x="380" y="128" width="200" height="14" rx="3" fill="#1C2A31"/><rect class="bar b3" x="380" y="128" width="200" height="14" rx="3" fill="#2DD4BF"/><text class="t g" x="596" y="140">loss 0.84 → 0.09</text></g>
+  <g class="l l4"><text class="t" x="28" y="172">Epoch 2/4  <tspan class="w">object_tracking </tspan></text><rect x="380" y="160" width="200" height="14" rx="3" fill="#1C2A31"/><rect class="bar b4" x="380" y="160" width="200" height="14" rx="3" fill="#60A5FA"/><text class="t g" x="596" y="172">loss 0.61 → 0.11</text></g>
+  <g class="l l5"><text class="t" x="28" y="204">Epoch 3/4  <tspan class="w">rag_and_llms    </tspan></text><rect x="380" y="192" width="200" height="14" rx="3" fill="#1C2A31"/><rect class="bar b5" x="380" y="192" width="200" height="14" rx="3" fill="#A78BFA"/><text class="t g" x="596" y="204">loss 0.72 → 0.13</text></g>
+  <g class="l l6"><text class="t" x="28" y="236">Epoch 4/4  <tspan class="w">full_stack_mlops</tspan></text><rect x="380" y="224" width="200" height="14" rx="3" fill="#1C2A31"/><rect class="bar b6" x="380" y="224" width="200" height="14" rx="3" fill="#FB923C"/><text class="t g" x="596" y="236">loss 0.55 → 0.10</text></g>
+
+  <text class="t l l7" x="28" y="272"><tspan class="c">✓</tspan> Training complete. Exporting to production…</text>
+  <text class="t l l8" x="28" y="304"><tspan class="y">→</tspan> <tspan class="w">Ready to build your next AI product.</tspan><tspan class="c cur"> ▌</tspan></text>
+</svg>
