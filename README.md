@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Mohamed Wael — AI Engineer" width="100%"/>
+<img src="./banner.svg" alt="Mohamed Wael — AI Engineer" width="100%"/>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=2DD4BF&center=true&vCenter=true&width=720&lines=Computer+Vision+%C2%B7+Detection+%26+Tracking;RAG+Systems+%26+LLM+Applications;From+model+training+to+full-stack+deployment;Turning+video+%26+documents+into+decisions" alt="Typing SVG"/></a>
 
@@ -60,7 +60,7 @@ class MohamedWael:
 | 🚶 **Pedestrian Tracking** | Real-time detection & tracking in crowded scenes | YOLO + multi-object tracking · unique IDs |
 
 <div align="center">
-  <img src="./assets/training.svg" alt="training.log" width="85%"/>
+  <img src="./training.svg" alt="training.log" width="85%"/>
 </div>
 
 ## 📊 GitHub Stats
@@ -72,15 +72,6 @@ class MohamedWael:
   <img src="https://streak-stats.demolab.com?user=Mhmdwael77&hide_border=true&background=0A0F12&ring=2DD4BF&fire=A78BFA&currStreakLabel=2DD4BF&sideLabels=B7C4CA&currStreakNum=E6EDF0&sideNums=E6EDF0&dates=8A9AA2&stroke=22313A" alt="Streak"/>
   <br/>
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mhmdwael77&bg_color=0A0F12&color=B7C4CA&line=2DD4BF&point=A78BFA&area=true&area_color=2DD4BF&hide_border=true" alt="Activity graph"/>
-</div>
-
-## 🐍 Contributions
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mhmdwael77/Mhmdwael77/output/github-contribution-grid-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Mhmdwael77/Mhmdwael77/output/github-contribution-grid-snake.svg" alt="Contribution snake"/>
-  </picture>
 </div>
 
 <div align="center">
