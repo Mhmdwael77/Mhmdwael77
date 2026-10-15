@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/mohamed-elsiley"><img src="https://img.shields.io/badge/LinkedIn-0A0F12?style=for-the-badge&logo=linkedin&logoColor=2DD4BF" alt="LinkedIn"/></a>
-  <a href="UPWORK_PROFILE_URL"><img src="https://img.shields.io/badge/Upwork-0A0F12?style=for-the-badge&logo=upwork&logoColor=2DD4BF" alt="Upwork"/></a>
+  <a href="https://www.upwork.com/freelancers/~01dbae499fc5661ab1"><img src="https://img.shields.io/badge/Upwork-0A0F12?style=for-the-badge&logo=upwork&logoColor=2DD4BF" alt="Upwork"/></a>
   <a href="mailto:mhmdwaael.work@gmail.com"><img src="https://img.shields.io/badge/Email-0A0F12?style=for-the-badge&logo=gmail&logoColor=2DD4BF" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=Mhmdwael77&style=for-the-badge&color=2DD4BF&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
@@ -35,12 +35,14 @@ class MohamedWael:
 
 <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark" alt="AI/ML"/>
 
-<img src="https://img.shields.io/badge/YOLO-0A0F12?style=flat-square&logo=yolo&logoColor=2DD4BF"/>
-<img src="https://img.shields.io/badge/ByteTrack-0A0F12?style=flat-square"/>
-<img src="https://img.shields.io/badge/BotSort-0A0F12?style=flat-square"/>
-<img src="https://img.shields.io/badge/FAISS-0A0F12?style=flat-square"/>
-<img src="https://img.shields.io/badge/SentenceTransformers-0A0F12?style=flat-square&logo=huggingface&logoColor=F5B841"/>
-<img src="https://img.shields.io/badge/TFLite-0A0F12?style=flat-square&logo=tensorflow&logoColor=FB923C"/>
+<p>
+  <img src="https://img.shields.io/badge/YOLO-1C2A31?style=for-the-badge&logo=yolo&logoColor=2DD4BF"/>
+  <img src="https://img.shields.io/badge/ByteTrack-1C2A31?style=for-the-badge&logo=target&logoColor=2DD4BF"/>
+  <img src="https://img.shields.io/badge/BotSort-1C2A31?style=for-the-badge&logo=target&logoColor=A3E635"/>
+  <img src="https://img.shields.io/badge/FAISS-1C2A31?style=for-the-badge&logo=meta&logoColor=60A5FA"/>
+  <img src="https://img.shields.io/badge/SentenceTransformers-1C2A31?style=for-the-badge&logo=huggingface&logoColor=F5B841"/>
+  <img src="https://img.shields.io/badge/TFLite-1C2A31?style=for-the-badge&logo=tensorflow&logoColor=FB923C"/>
+</p>
 
 **Backend · Frontend · Mobile · Ops**
 
@@ -52,12 +54,11 @@ class MohamedWael:
 
 | Project | What it does | Highlights |
 |---|---|---|
-| 🎥 **VisionOps** | AI-powered CCTV analytics: people detection, tracking, entry/exit counting, zones & dwell time, analytics dashboard | **86%** precision · **59.5%** mAP@50 · YOLO11s + ByteTrack + FastAPI + React |
+| 🎥 **[VisionOps](https://github.com/Mhmdwael77/VisionOps)** | AI-powered CCTV analytics: people detection, tracking, entry/exit counting, zones & dwell time, analytics dashboard | **86%** precision · **59.5%** mAP@50 · YOLO11s + ByteTrack + FastAPI + React |
 | 📄 **[SmartDoc RAG](https://github.com/Mhmdwael77/smartdoc-rag)** | RAG assistant for SEC 10-K filings with grounded, cited answers | FastAPI · FAISS · SentenceTransformers · Next.js |
 | 🎳 **[Pin-Tracker](https://github.com/Mhmdwael77/Pin-Tracker)** | Fully offline bowling pin tracking & scoring app | **96.7%** mAP@50 (standing pins) · **89.5%** overall · YOLOv8n → TFLite · Flutter |
-| ⚽ **Football Analytics** | End-to-end match analysis: players, ball & team assignment | YOLOv11 + BotSort |
-| 🫁 **Chest X-ray AI** | Pneumonia detection from chest X-rays with confidence & report | Deep Learning · CNN |
-| 🚶 **Pedestrian Tracking** | Real-time detection & tracking in crowded scenes | YOLO + multi-object tracking · unique IDs |
+| ⚽ **[Football Analytics](https://github.com/Mhmdwael77/ai-football-analytics)** | End-to-end match analysis: players, ball & team assignment | YOLOv11 + BotSort |
+| 🫁 **[Chest X-ray AI](https://github.com/Mhmdwael77/pneumonia-detection-vgg16)** | Pneumonia detection from chest X-rays with confidence & report | Transfer learning · VGG16 · Deep Learning |
 
 <div align="center">
   <img src="./training.svg" alt="training.log" width="85%"/>
@@ -67,11 +68,9 @@ class MohamedWael:
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Mhmdwael77&show_icons=true&hide_border=true&bg_color=0A0F12&title_color=2DD4BF&icon_color=2DD4BF&text_color=B7C4CA&include_all_commits=true&count_private=true" alt="Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mhmdwael77&layout=compact&hide_border=true&bg_color=0A0F12&title_color=2DD4BF&text_color=B7C4CA&langs_count=6" alt="Top languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mhmdwael77&layout=compact&hide_border=true&bg_color=0A0F12&title_color=2DD4BF&text_color=B7C4CA&langs_count=6&hide=jupyter%20notebook,html,css" alt="Top languages"/>
   <br/>
   <img src="https://streak-stats.demolab.com?user=Mhmdwael77&hide_border=true&background=0A0F12&ring=2DD4BF&fire=A78BFA&currStreakLabel=2DD4BF&sideLabels=B7C4CA&currStreakNum=E6EDF0&sideNums=E6EDF0&dates=8A9AA2&stroke=22313A" alt="Streak"/>
-  <br/>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mhmdwael77&bg_color=0A0F12&color=B7C4CA&line=2DD4BF&point=A78BFA&area=true&area_color=2DD4BF&hide_border=true" alt="Activity graph"/>
 </div>
 
 <div align="center">
