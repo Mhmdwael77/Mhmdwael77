@@ -54,7 +54,7 @@ class MohamedWael:
 
 | Project | What it does | Highlights |
 |---|---|---|
-| 🎥 **[VisionOps](https://github.com/Mhmdwael77/VisionOps)** | AI-powered CCTV analytics: people detection, tracking, entry/exit counting, zones & dwell time, analytics dashboard | **86%** precision · **59.5%** mAP@50 · YOLO11s + ByteTrack + FastAPI + React |
+| 🎥 **[VisionOps](https://github.com/Mhmdwael77/VisionOps)** | AI-powered CCTV analytics: people detection, tracking, entry/exit counting, zones & dwell time, analytics dashboard | **86%** precision · **82.5%** mAP@50 · YOLO11s + ByteTrack + FastAPI + React |
 | 📄 **[SmartDoc RAG](https://github.com/Mhmdwael77/smartdoc-rag)** | RAG assistant for SEC 10-K filings with grounded, cited answers | FastAPI · FAISS · SentenceTransformers · Next.js |
 | 🎳 **[Pin-Tracker](https://github.com/Mhmdwael77/Pin-Tracker)** | Fully offline bowling pin tracking & scoring app | **96.7%** mAP@50 (standing pins) · **89.5%** overall · YOLOv8n → TFLite · Flutter |
 | ⚽ **[Football Analytics](https://github.com/Mhmdwael77/ai-football-analytics)** | End-to-end match analysis: players, ball & team assignment | YOLOv11 + BotSort |
